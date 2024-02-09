@@ -1,4 +1,5 @@
 import SocialMedia from './SocialMedia'
+import Informations from './Informations'
 
 import Avatar from '../img/perfil.jpg'
 
@@ -10,7 +11,7 @@ const Sidebar = () => {
       <img src={Avatar} alt="Gustavo Carvalho" />
       <p className="title">Desenvolvedor</p>
       <SocialMedia />
-      <p>informações de contato</p>
+      <Informations />
       <a href="" className="btn">
         Dowload currículo
       </a>

@@ -5,7 +5,6 @@ import '../styles/componentes/socialmedia.sass'
 const socialMedia = [
   { name: "", icon: <FaLinkedinIn/> }, 
   { name: "", icon: <FaGithub/> }, 
-  { name: "", icon: <FaInstagram/> }, 
 ];
 
 const SocialMedia = () =>{

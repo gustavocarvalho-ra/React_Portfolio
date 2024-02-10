@@ -17,7 +17,7 @@ const technologies = [
   { id: "icon", name: "React", icon: <DiReact /> },
   { id: "icon", name: "Sass", icon: <DiSass /> },
   { id: "icon", name: "Phyton", icon: <DiPython /> },
-  { id: "icon", name: "GitHub", icon: <DiGithubBadge /> },
+  { id: "icon", name: "Git", icon: <DiGithubBadge /> },
 ];
 
 import '../styles/componentes/technologiescontainer.sass'
@@ -33,9 +33,7 @@ const TechnologiesContainer = () => {
           <h3>{tech.name}</h3>
         </div>
       </div>
-      
       ))}
-      
     </div>
   </section>
 }

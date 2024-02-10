@@ -14,6 +14,7 @@ export default SocialMedia
 
 
 
+// Função em .map
 
 // // const socialMedia = [
 // //   { name: "1", icon: <FaLinkedinIn/> }, 

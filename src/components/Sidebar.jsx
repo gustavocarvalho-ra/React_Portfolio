@@ -1,5 +1,6 @@
 import SocialMedia from './SocialMedia'
 import Informations from './Informations'
+import Curriculo from '../document/Currículo.pdf'
 
 import Avatar from '../img/perfil.jpg'
 
@@ -12,7 +13,7 @@ const Sidebar = () => {
       <p className="title">Desenvolvedor Front-End</p>
       <SocialMedia />
       <Informations />
-      <a href="" className="btn">
+      <a href="../document/Currículo.pdf" target='_blanck' className="btn">
         Dowload currículo
       </a>
     </aside>

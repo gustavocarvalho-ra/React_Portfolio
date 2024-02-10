@@ -1,5 +1,5 @@
-import AboutContainer from "./AboutContainer"
 import Projetos from "./Projetos"
+import AboutContainer from "./AboutContainer"
 import TechnologiesContainer from "./TechnologiesContainer"
 
 import "../styles/componentes/maincontent.sass"
